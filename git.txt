@@ -26,3 +26,16 @@ git confit == global -l
 # configureaza email si nume
 git config -- global user.email " Email GITHUB"
 git config --global user.name "Your Name"
+
+# afiseaza istorie
+git log
+
+# intoarcere in timp - reset la commit
+git reset COMMIT_ID
+ex git reset d08ba65bf629f94fbb5ad049d17d4a8ba1d56480
+
+# Uploadeasa modificarile
+git push
+
+# Descarcam cele mai noi modificari
+git pull
