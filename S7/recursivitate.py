@@ -16,4 +16,4 @@ def factorial(n):
 # 
 
 
-print(factorial(950))
+print(factorial(4))
