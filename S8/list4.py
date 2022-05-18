@@ -18,6 +18,8 @@ top_three_users = user_id[:3]
 print("user_id", user_id)
 print("top_three_users", top_three_users)
 
+print("-" * 30)
+
 # ultimul element
 last_element = user_id[-1:]
 print(last_element)
@@ -25,5 +27,5 @@ print(last_element)
 print("-" * 30)
 
 # interval
-print
+print(user_id[1:4])
 # list copy
