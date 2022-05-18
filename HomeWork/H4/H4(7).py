@@ -1,0 +1,1 @@
+# 7) Print the index of element with value 144

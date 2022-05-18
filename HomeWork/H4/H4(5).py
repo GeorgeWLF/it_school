@@ -1,0 +1,1 @@
+# 5) Print first and last element

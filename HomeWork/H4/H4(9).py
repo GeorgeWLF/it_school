@@ -1,0 +1,1 @@
+# 9) Make a function for printing the first 5 longest strings in a list ; (len("test"))

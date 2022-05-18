@@ -1,0 +1,1 @@
+# 8) Make a function to remove all the element with a maximal value from a list; return a new list (original list does not modify)
