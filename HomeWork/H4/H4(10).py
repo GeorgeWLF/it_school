@@ -8,7 +8,11 @@ list = [13 , 12 , 13, 13]
 #     else:
 #         print("not equal")
 
-if  list.count(list[0]) == len(list):
-    print("egual")
-else:
-    print("not equal")
+# Var1
+# if  list.count(list[0]) == len(list):
+#     print("egual")
+# else:
+#     print("not equal")
+
+# Var2
+print(max(list) == min(list))

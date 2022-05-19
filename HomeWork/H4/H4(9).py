@@ -1,24 +1,24 @@
 # 9) Make a function for printing the first 5 longest strings in a list ; (len("test"))
 
+# Var1
 
-list = ['Mihai', 'Alex', 'Catalin', 'George', 'Radu', 'Simona']
+# list = ['Mihai', 'Alex', 'Catalin', 'George', 'Radu', 'Simona']
 
-# print (max(list, key=len))
-# list.remove(max(list, key=len))
+# # for i in range(0, len(list)):
+# #     if i <= 4:
+# #          print (max(list, key=len))
+# #          list.remove(max(list, key=len))
 
-# print (max(list, key=len))
-# list.remove(max(list, key=len))
+# Var2
 
-# print (max(list, key=len))
-# list.remove(max(list, key=len))
+cfr = ["petrescu", "omrani", "debeljiuc", "boateng", "deac" , "petrila", "grahovac"]
 
-# print (max(list, key=len))
-# list.remove(max(list, key=len))
+def len_is (string):
+    print("Key function called with: ", string)
+    return len(string)
 
-# print (max(list, key=len))
-# list.remove(max(list, key=len))
+def longest_strings (lst) :
+    lst.sort(key=len_is, reverse=True)
+    print (lst[:5])
 
-for i in range(0, len(list)):
-    if i <= 4:
-         print (max(list, key=len))
-         list.remove(max(list, key=len))
+longest_strings (cfr)
