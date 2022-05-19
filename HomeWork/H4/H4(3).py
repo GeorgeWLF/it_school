@@ -4,3 +4,13 @@
 # [1, 2, 3]
 # [3, 4, 6]
 # => [3, 8, 18]
+
+list1 = [2,5,6]
+list2 = [1,3,4]
+
+products = []
+
+for i in range(0, len(list1)):
+    products.append(list1[i] * list2[i])
+
+print(products)

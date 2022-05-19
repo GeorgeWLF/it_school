@@ -1,1 +1,0 @@
-# 4) Create a mixed (sting and int) list with 10 elements

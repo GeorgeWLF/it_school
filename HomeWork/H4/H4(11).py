@@ -1,5 +1,8 @@
 # 11) Count each word in list. Print how may times each word appears in list.
 
+from typing import Counter
+
+
 words = ['Python', 'is', 'an', 'easy', 'to', 'learn', 'powerful', 'programming', 'language', 'It', 'has', 'efficient', 'high-level',
 'data', 'structures', 'and', 'a', 'simple', 'but', 'effective', 'approach', 'to', 'object-oriented', 'programming', 'Python’s',
 'elegant', 'syntax', 'and', 'dynamic', 'typing', 'together', 'with', 'its', 'interpreted', 'nature', 'make', 'it', 'an', 'ideal',
@@ -22,3 +25,6 @@ words = ['Python', 'is', 'an', 'easy', 'to', 'learn', 'powerful', 'programming',
 'and', 'will', 'give', 'you', 'a', 'good', 'idea', 'of', 'the', 'language’s', 'flavor', 'and', 'style', 'After', 'reading', 'it', 'you',
 'will', 'be', 'able', 'to', 'read', 'and', 'write', 'Python', 'modules', 'and', 'programs', 'and', 'you', 'will', 'be', 'ready', 'to',
 'learn', 'more', 'about', 'the', 'various', 'Python', 'library', 'modules', 'described', 'in', 'The', 'Python', 'Standard', 'Library']
+
+Counter(words)
+print(Counter(words))
