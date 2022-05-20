@@ -6,6 +6,3 @@
 
 Diag principala 1 5 6
 Diag secundara 3 5 7
-
-
-2. 

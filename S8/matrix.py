@@ -16,3 +16,5 @@ matrix = [
 print(type(matrix[0]))
 print(matrix[0][1])
 print(matrix[2][1])
+
+print(matrix[0][2][0])

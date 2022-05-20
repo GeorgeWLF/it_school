@@ -15,3 +15,4 @@ print(numbers)
 unique_numbers = set(numbers)
 
 print(("Set unic, lungime:", len(unique_numbers)))
+print(unique_numbers)
