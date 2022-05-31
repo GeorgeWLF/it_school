@@ -36,3 +36,5 @@ def critical(msg):
 
 # critical("Fatal error. Cannot continue")
 
+if __name__ == "__logger__":
+    print("From MODULE!!!!")
