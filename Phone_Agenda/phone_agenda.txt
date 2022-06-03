@@ -1,0 +1,49 @@
+[George Valeanu, 0741256, geogewolfbiz@gmail.com]
+[George Mihai, 041245, mihaigeorge]
+[George Wolf, 0741292175, FA]
+[george wolf, fsas, fadsa]
+[George Cata, 024, mihai]
+[Cata George, 0214, mihai@gmail.com]
+[Cata Bogdan, 94239, gamam]
++-----------------------------+
+First name:George
+Last name:Laur
+ Phone number:0741265475
+Email:georgelaur@gmail.com
++-----------------------------+
++-----------------------------+
+First name:mihai
+Last name:catalin
+ Phone number:04224564
+Email:bogdan
++-----------------------------+
++-----------------------------+
+First name: Alex
+Last name: Mihai
+ Phone number: 01545
+Email: 121
++-----------------------------+
++-----------------------------+
+First name: andrei
+Last name: catalin
+ Phone number: 050505
+Email: george wolf
++-----------------------------+
++-----------------------------+
+First name: mihai
+Last name: catalin
+ Phone number: 050511
+Email: bofsaf
++-----------------------------+
++-----------------------------+
+First name: bogdan
+Last name: catalin
+ Phone number: 05150
+Email: Mihai
++-----------------------------+
++-----------------------------+
+First name: bogdan
+Last name: mihai
+ Phone number: 423423
+Email: agsa
++-----------------------------+
