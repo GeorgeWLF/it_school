@@ -3,7 +3,7 @@
 # print(card)
 # >>> 5
 # The deck must keep a list of cards inside it. Put de cards in deck at instantation,
-# 52 cards, no duplicates. The deck must implement get_cards(number).
+# 52 cards, no duplicates. The deck must implement get_cards(number),
 #
 
 
@@ -56,5 +56,7 @@ class Deck:
 
 deck = Deck()
 
-print(deck.get_all_cards())
+# print(deck.get_all_cards())
+
+print(len(deck.get_all_cards()))
 
