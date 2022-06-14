@@ -1,12 +1,14 @@
 # Implement standard-52 card deck in Python. Create a Card class and a Deck class.
 # The cards has to be printable ex:
 # print(card)
-# >>> 5
+# >>> 5♠
 # The deck must keep a list of cards inside it. Put de cards in deck at instantation,
 # 52 cards, no duplicates. The deck must implement get_cards(number),
-#
+# shuffle()and overwrite __len__ to show the number of remaining cards in deck.
 
 
+
+from random import shuffle
 
 
 class Card:
@@ -37,7 +39,8 @@ class Deck:
         return r_cards
             
     def shuffle(self):
-        pass
+        shuffle(self.__cards)
+        return self.__cards
 
     def generate_available_numbers(self):
         a_n = []
@@ -52,11 +55,24 @@ class Deck:
                 self.__cards.append(Card(i, j))
 
     def get_all_cards(self):
-        return self.get_cards(52)
+        g_c = []
+        g_c.append(self.__cards())
+        for i in range(len(g_c)):
+            return self.get_cards(i)
+
+    def show(self):
+        for card in self.__cards:
+            print(card)
+
+    def __len__(self):
+        return len(self.__cards)
+
 
 deck = Deck()
 
-# print(deck.get_all_cards())
+deck.shuffle()
+print(deck.get_cards(2))
+deck.show()
 
-print(len(deck.get_all_cards()))
+
 
